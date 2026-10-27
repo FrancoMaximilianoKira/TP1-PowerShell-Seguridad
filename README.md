@@ -5,5 +5,5 @@
 
 
 ```bash
-pwsh ./TP1_Franco_Chavez.ps1
+https://github.com/FrancoMaximilianoKira/TP1-PowerShell-Seguridad/blob/main/TrabajoPractico1.ps1
 ```
