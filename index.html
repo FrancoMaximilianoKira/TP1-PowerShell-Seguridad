@@ -1,0 +1,43 @@
+<html>
+<head><title>TP1 - Franco Chavez - Linux Mint</title></head>
+<body>
+<h1>Trabajo Practico 1 - PowerShell</h1>
+<p><b>Modulo:</b> Programacion para Seguridad Informatica</p>
+<p><b>Docente:</b> Lic. Carlos Pacheco</p>
+<p><b>Alumno:</b> Franco Chavez</p>
+<p><b>Equipo:</b> franco-HP-Laptop-15-fc0xxx</p>
+<p><b>SO:</b> Linux Mint 22.3 - PowerShell 7.6.8 Core</p>
+<p><b>Fecha:</b> 26/10/2026</p>
+
+<h2>Script - TrabajoPractico1.ps1</h2>
+<pre>
+# 1 - version de PowerShell
+$PSVersionTable.PSVersion
+
+# 2 - permisividad
+Get-ExecutionPolicy
+
+# 3 - edicion del SO
+Get-ComputerInfo | Select-Object OsName, WindowsEditionId, OsVersion
+
+# 4 - info completa de la PC (comando del simbolo del sistema)
+systeminfo
+</pre>
+
+<h2>Aclaracion - Estoy en Linux Mint</h2>
+<p>En mi equipo Linux Mint 22.3 el comando <b>systeminfo</b> no existe porque es exclusivo de Windows CMD.</p>
+<p>Cuando lo ejecuto en PowerShell 7.6.8 Core me da error.</p>
+<p>Por eso el equivalente en Linux Mint que use es:</p>
+<ul>
+<li><b>hostnamectl</b> -> info completa de la PC</li>
+<li><b>uname -a</b> -> version del kernel</li>
+<li><b>lsb_release -a</b> -> edicion de Linux Mint</li>
+</ul>
+
+<h2>Links</h2>
+<p><b>Repositorio:</b> <a href="https://github.com/FrancoMaximilianoKira/TP1-PowerShell-Seguridad">https://github.com/FrancoMaximilianoKira/TP1-PowerShell-Seguridad</a></p>
+<p><b>Archivo PS1:</b> <a href="https://github.com/FrancoMaximilianoKira/TP1-PowerShell-Seguridad/blob/main/TrabajoPractico1.ps1">TrabajoPractico1.ps1</a></p>
+<p><b>Pagina publicada:</b> https://francomaximilianokira.github.io/TP1-PowerShell-Seguridad/</p>
+
+</body>
+</html>
