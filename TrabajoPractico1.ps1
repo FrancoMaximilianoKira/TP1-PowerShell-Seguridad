@@ -1,3 +1,4 @@
-$PSVersionTable
+$psversiontable
 Get-ExecutionPolicy
-Get-ComputerInfo
+Get-computerinfo | select-object WindowsEditionid
+systeminfo
