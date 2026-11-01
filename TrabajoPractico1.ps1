@@ -1,4 +1,4 @@
-$psversiontable
+$PSVersionTable.
 Get-ExecutionPolicy
-Get-computerinfo | select-object WindowsEditionid
+Get-ComputerInfo | Select-Object OsName, WindowsEditionId, OsVersion
 systeminfo
