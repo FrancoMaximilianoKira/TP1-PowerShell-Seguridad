@@ -1,3 +1,3 @@
-$PSVersionTable.PSVersion
+$PSVersionTable
 Get-ExecutionPolicy
 Get-ComputerInfo
